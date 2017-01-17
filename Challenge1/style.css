@@ -1,6 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,23 +46,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+h1 {
+	font-size: 350%;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+}
 
 .container{
 	background-color: lightblue;
+	background-image: url("images/seoulnight.jpg");
 	background-size: cover;
-	margin: 2%;
+	margin: 1%;
 }
 
 .heading {
-	background-color: grey;
-	height: 10%;
+	height: 5%;
 	width: auto;
 	padding: 2%;
 }
 
 .center-content {
-	background-color: floralwhite;
+	/*background-color: floralwhite;*/
 	height: 70%;
 	width: 70%;
 	margin: auto;
@@ -69,14 +74,14 @@ table {
 }
 
 .left {
-	background-color: green;
+
 	height: 70%;
 	width: 15%;
 	float: left;
 }
 
 .right {
-	background-color: brown;
+
 	height: 70%;
 	width: 15%;
 	float: right;
@@ -84,18 +89,59 @@ table {
 }
 
 .footer {
-	background-color: darkgrey;
+
 	height: 10%;
 	width: 100%;
+	text-align: center;
 }
-.thumbnail{
+
+.bg{
 	display: inline-block;
 	width: 31%;
 	height: 29%;
-	padding: 1%;
+	padding: 0.5%;
+	margin: 0.5%;
+	background-color: black;
 }
 img {
     height: 100px;
     min-height: 100%;
     width: 100%;
 }
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+	float: left;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+	background-color: #555;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+	display: none;
+}
+
+
