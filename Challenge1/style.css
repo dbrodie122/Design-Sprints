@@ -88,23 +88,14 @@ table {
 	height: 10%;
 	width: 100%;
 }
-table {
-	text-align: center;
-	border: 2px solid black;
+.thumbnail{
+	display: inline-block;
+	width: 31%;
+	height: 29%;
+	padding: 1%;
 }
-th {
-	font-weight: bold;
-	border: 2px solid black;
-/*	width: 100%;*/
-
-}
-td {
-	padding: 3%;
-	border: 2px solid black;
-
-}
-td img {
-    height: auto;
+img {
+    height: 100px;
     min-height: 100%;
     width: 100%;
 }
