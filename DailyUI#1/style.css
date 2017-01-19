@@ -9,23 +9,39 @@ input{
 	font-size: 2em;
 	margin-bottom: 2em;
 	margin-left: 10%;
+	background-color: transparent;
+	border-radius: 10%;
+	border-color: transparent;
+
 }
 input:first-child{
 	margin-top: 1em;
 }
+
 label {
 	font-size: 2.5em;
 	display: block;
 	margin-left: 7%;
 }
-
 .signup {
-	background-color: rgba(231, 226, 237, 0.31);
+	display: inline-block;
 	width: 30%;
-	height: 50%;
+	height: 10%;
+	background-color:blue;
+	border-radius: 2%;
+	margin-left: 22%;
+	margin-top: 10%;
+	font-size: 70%;
+}
+.form {
+	display: none;
+	background-color: rgba(231, 226, 237, 0.5);
+	width: 30%;
+	height: 55%;
 	border-radius: 2%;
 	position: absolute;
 	left: 22%;
 	top: 30%;
 }
+
 
